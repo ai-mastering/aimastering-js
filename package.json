@@ -1,0 +1,21 @@
+{
+  "name": "aimastering",
+  "version": "1.0.0",
+  "description": "This_is_a_AI_Mastering_API_document__You_can_use_the_mastering_feature_of__AI_Mastering_httpsaimastering_com_through_this_API_",
+  "license": "Apache 2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
