@@ -443,7 +443,7 @@
         if (_formParams.hasOwnProperty(key)) {
           if (this.isFileParam(_formParams[key])) {
             // file field
-            request.attach(key, _formParams[key]);
+            request.attach(key, _formParams[key], { filename: 'filename' });
           } else {
             request.field(key, _formParams[key]);
           }
