@@ -60,6 +60,7 @@
      * Create a new audio.
      * @param {Object} opts Optional parameters
      * @param {File} opts.file The file to upload.
+     * @param {String} opts.name Audio name. If this is not specified, the name in file parameter is used.
      * @param {module:api/AudioApi~createAudioCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/Audio}
      */
@@ -77,7 +78,8 @@
       var headerParams = {
       };
       var formParams = {
-        'file': opts['file']
+        'file': opts['file'],
+        'name': opts['name']
       };
 
       var authNames = ['bearer'];

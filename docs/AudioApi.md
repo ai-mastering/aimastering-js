@@ -33,7 +33,8 @@ bearer.apiKey = 'YOUR API KEY';
 var apiInstance = new Aimastering.AudioApi();
 
 var opts = { 
-  'file': "/path/to/file.txt" // File | The file to upload.
+  'file': "/path/to/file.txt", // File | The file to upload.
+  'name': "name_example" // String | Audio name. If this is not specified, the name in file parameter is used.
 };
 
 var callback = function(error, data, response) {
@@ -51,6 +52,7 @@ apiInstance.createAudio(opts, callback);
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **file** | **File**| The file to upload. | [optional] 
+ **name** | **String**| Audio name. If this is not specified, the name in file parameter is used. | [optional] 
 
 ### Return type
 
