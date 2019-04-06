@@ -65,8 +65,6 @@ Name | Type | Description | Notes
 
 * `failed_to_prepare` (value: `"failed_to_prepare"`)
 
-* `job_queue` (value: `"job_queue"`)
-
 
 
 

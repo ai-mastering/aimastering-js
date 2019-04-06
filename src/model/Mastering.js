@@ -432,12 +432,7 @@
      * value: "failed_to_prepare"
      * @const
      */
-    "failed_to_prepare": "failed_to_prepare",
-    /**
-     * value: "job_queue"
-     * @const
-     */
-    "job_queue": "job_queue"  };
+    "failed_to_prepare": "failed_to_prepare"  };
 
   /**
    * Allowed values for the <code>target_loudness_mode</code> property.
