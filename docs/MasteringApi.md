@@ -1,6 +1,6 @@
 # Aimastering.MasteringApi
 
-All URIs are relative to *https://bakuage.com:443/api*
+All URIs are relative to *https://api.bakuage.com:443*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

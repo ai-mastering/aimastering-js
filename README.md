@@ -118,7 +118,7 @@ api.createAccessToken(callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://bakuage.com:443/api*
+All URIs are relative to *https://api.bakuage.com:443*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -156,6 +156,8 @@ Class | Method | HTTP request | Description
 *Aimastering.PaymentApi* | [**listPayments**](docs/PaymentApi.md#listPayments) | **GET** /payments | Get all accessable payments.
 *Aimastering.PaymentCustomerApi* | [**getDefaultPaymentCustomer**](docs/PaymentCustomerApi.md#getDefaultPaymentCustomer) | **GET** /payment_customers/default | Get a default payment customer.
 *Aimastering.PlanApi* | [**listPlans**](docs/PlanApi.md#listPlans) | **GET** /plans | Get all accessable plans.
+*Aimastering.SpSubscriptionApi* | [**createSpSubscription**](docs/SpSubscriptionApi.md#createSpSubscription) | **POST** /sp_subscriptions | Create a new smartphone subscription.
+*Aimastering.SpSubscriptionApi* | [**listSpSubscriptions**](docs/SpSubscriptionApi.md#listSpSubscriptions) | **GET** /sp_subscriptions | Get all accessable smartphone subscriptions.
 *Aimastering.StatisticsApi* | [**getGroupBuyStatistics**](docs/StatisticsApi.md#getGroupBuyStatistics) | **GET** /statistics/group_buy | Get group buy statistics.
 *Aimastering.StatisticsApi* | [**listAnonymizedMasterings**](docs/StatisticsApi.md#listAnonymizedMasterings) | **GET** /statistics/anonymized_masterings | Get anonymized masterings.
 *Aimastering.StatisticsApi* | [**listKpis**](docs/StatisticsApi.md#listKpis) | **GET** /statistics/kpis | Get KPIs.
@@ -201,6 +203,7 @@ Class | Method | HTTP request | Description
  - [Aimastering.Payment](docs/Payment.md)
  - [Aimastering.PaymentCustomer](docs/PaymentCustomer.md)
  - [Aimastering.Plan](docs/Plan.md)
+ - [Aimastering.SpSubscription](docs/SpSubscription.md)
  - [Aimastering.Subscription](docs/Subscription.md)
  - [Aimastering.User](docs/User.md)
  - [Aimastering.UserStatistics](docs/UserStatistics.md)

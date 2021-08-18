@@ -47,9 +47,9 @@
     /**
      * The base URL against which to resolve every API call's (relative) path.
      * @type {String}
-     * @default https://bakuage.com:443/api
+     * @default https://api.bakuage.com:443
      */
-    this.basePath = 'https://bakuage.com:443/api'.replace(/\/+$/, '');
+    this.basePath = 'https://api.bakuage.com:443'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.

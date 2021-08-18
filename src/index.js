@@ -17,12 +17,12 @@
 (function(factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
-    define(['ApiClient', 'model/AccessToken', 'model/AmazonSubscription', 'model/AnonymizedMastering', 'model/Audio', 'model/AudioAnalysis', 'model/AudioDownloadToken', 'model/Config', 'model/ConfigAuth0', 'model/ConfigPaypal', 'model/ConfigStripe', 'model/ConfigVersion', 'model/ExternalSearchResult', 'model/ExternalSearchResultItunes', 'model/ExternalSearchResultYoutube', 'model/GroupBuyStatistics', 'model/JWT', 'model/Kpi', 'model/LibraryAudio', 'model/LibraryAudioAnalysis', 'model/LibraryAudioLike', 'model/Mastering', 'model/Payment', 'model/PaymentCustomer', 'model/Plan', 'model/Subscription', 'model/User', 'model/UserStatistics', 'model/Video', 'model/VideoDownloadToken', 'api/AccessTokenApi', 'api/AmazonSubscriptionApi', 'api/AudioApi', 'api/ConfigApi', 'api/ExternalSearchApi', 'api/LibraryAudioApi', 'api/MasteringApi', 'api/PaymentApi', 'api/PaymentCustomerApi', 'api/PlanApi', 'api/StatisticsApi', 'api/SubscriptionApi', 'api/UserApi', 'api/VideoApi'], factory);
+    define(['ApiClient', 'model/AccessToken', 'model/AmazonSubscription', 'model/AnonymizedMastering', 'model/Audio', 'model/AudioAnalysis', 'model/AudioDownloadToken', 'model/Config', 'model/ConfigAuth0', 'model/ConfigPaypal', 'model/ConfigStripe', 'model/ConfigVersion', 'model/ExternalSearchResult', 'model/ExternalSearchResultItunes', 'model/ExternalSearchResultYoutube', 'model/GroupBuyStatistics', 'model/JWT', 'model/Kpi', 'model/LibraryAudio', 'model/LibraryAudioAnalysis', 'model/LibraryAudioLike', 'model/Mastering', 'model/Payment', 'model/PaymentCustomer', 'model/Plan', 'model/SpSubscription', 'model/Subscription', 'model/User', 'model/UserStatistics', 'model/Video', 'model/VideoDownloadToken', 'api/AccessTokenApi', 'api/AmazonSubscriptionApi', 'api/AudioApi', 'api/ConfigApi', 'api/ExternalSearchApi', 'api/LibraryAudioApi', 'api/MasteringApi', 'api/PaymentApi', 'api/PaymentCustomerApi', 'api/PlanApi', 'api/SpSubscriptionApi', 'api/StatisticsApi', 'api/SubscriptionApi', 'api/UserApi', 'api/VideoApi'], factory);
   } else if (typeof module === 'object' && module.exports) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('./ApiClient'), require('./model/AccessToken'), require('./model/AmazonSubscription'), require('./model/AnonymizedMastering'), require('./model/Audio'), require('./model/AudioAnalysis'), require('./model/AudioDownloadToken'), require('./model/Config'), require('./model/ConfigAuth0'), require('./model/ConfigPaypal'), require('./model/ConfigStripe'), require('./model/ConfigVersion'), require('./model/ExternalSearchResult'), require('./model/ExternalSearchResultItunes'), require('./model/ExternalSearchResultYoutube'), require('./model/GroupBuyStatistics'), require('./model/JWT'), require('./model/Kpi'), require('./model/LibraryAudio'), require('./model/LibraryAudioAnalysis'), require('./model/LibraryAudioLike'), require('./model/Mastering'), require('./model/Payment'), require('./model/PaymentCustomer'), require('./model/Plan'), require('./model/Subscription'), require('./model/User'), require('./model/UserStatistics'), require('./model/Video'), require('./model/VideoDownloadToken'), require('./api/AccessTokenApi'), require('./api/AmazonSubscriptionApi'), require('./api/AudioApi'), require('./api/ConfigApi'), require('./api/ExternalSearchApi'), require('./api/LibraryAudioApi'), require('./api/MasteringApi'), require('./api/PaymentApi'), require('./api/PaymentCustomerApi'), require('./api/PlanApi'), require('./api/StatisticsApi'), require('./api/SubscriptionApi'), require('./api/UserApi'), require('./api/VideoApi'));
+    module.exports = factory(require('./ApiClient'), require('./model/AccessToken'), require('./model/AmazonSubscription'), require('./model/AnonymizedMastering'), require('./model/Audio'), require('./model/AudioAnalysis'), require('./model/AudioDownloadToken'), require('./model/Config'), require('./model/ConfigAuth0'), require('./model/ConfigPaypal'), require('./model/ConfigStripe'), require('./model/ConfigVersion'), require('./model/ExternalSearchResult'), require('./model/ExternalSearchResultItunes'), require('./model/ExternalSearchResultYoutube'), require('./model/GroupBuyStatistics'), require('./model/JWT'), require('./model/Kpi'), require('./model/LibraryAudio'), require('./model/LibraryAudioAnalysis'), require('./model/LibraryAudioLike'), require('./model/Mastering'), require('./model/Payment'), require('./model/PaymentCustomer'), require('./model/Plan'), require('./model/SpSubscription'), require('./model/Subscription'), require('./model/User'), require('./model/UserStatistics'), require('./model/Video'), require('./model/VideoDownloadToken'), require('./api/AccessTokenApi'), require('./api/AmazonSubscriptionApi'), require('./api/AudioApi'), require('./api/ConfigApi'), require('./api/ExternalSearchApi'), require('./api/LibraryAudioApi'), require('./api/MasteringApi'), require('./api/PaymentApi'), require('./api/PaymentCustomerApi'), require('./api/PlanApi'), require('./api/SpSubscriptionApi'), require('./api/StatisticsApi'), require('./api/SubscriptionApi'), require('./api/UserApi'), require('./api/VideoApi'));
   }
-}(function(ApiClient, AccessToken, AmazonSubscription, AnonymizedMastering, Audio, AudioAnalysis, AudioDownloadToken, Config, ConfigAuth0, ConfigPaypal, ConfigStripe, ConfigVersion, ExternalSearchResult, ExternalSearchResultItunes, ExternalSearchResultYoutube, GroupBuyStatistics, JWT, Kpi, LibraryAudio, LibraryAudioAnalysis, LibraryAudioLike, Mastering, Payment, PaymentCustomer, Plan, Subscription, User, UserStatistics, Video, VideoDownloadToken, AccessTokenApi, AmazonSubscriptionApi, AudioApi, ConfigApi, ExternalSearchApi, LibraryAudioApi, MasteringApi, PaymentApi, PaymentCustomerApi, PlanApi, StatisticsApi, SubscriptionApi, UserApi, VideoApi) {
+}(function(ApiClient, AccessToken, AmazonSubscription, AnonymizedMastering, Audio, AudioAnalysis, AudioDownloadToken, Config, ConfigAuth0, ConfigPaypal, ConfigStripe, ConfigVersion, ExternalSearchResult, ExternalSearchResultItunes, ExternalSearchResultYoutube, GroupBuyStatistics, JWT, Kpi, LibraryAudio, LibraryAudioAnalysis, LibraryAudioLike, Mastering, Payment, PaymentCustomer, Plan, SpSubscription, Subscription, User, UserStatistics, Video, VideoDownloadToken, AccessTokenApi, AmazonSubscriptionApi, AudioApi, ConfigApi, ExternalSearchApi, LibraryAudioApi, MasteringApi, PaymentApi, PaymentCustomerApi, PlanApi, SpSubscriptionApi, StatisticsApi, SubscriptionApi, UserApi, VideoApi) {
   'use strict';
 
   /**
@@ -183,6 +183,11 @@
      */
     Plan: Plan,
     /**
+     * The SpSubscription model constructor.
+     * @property {module:model/SpSubscription}
+     */
+    SpSubscription: SpSubscription,
+    /**
      * The Subscription model constructor.
      * @property {module:model/Subscription}
      */
@@ -257,6 +262,11 @@
      * @property {module:api/PlanApi}
      */
     PlanApi: PlanApi,
+    /**
+     * The SpSubscriptionApi service constructor.
+     * @property {module:api/SpSubscriptionApi}
+     */
+    SpSubscriptionApi: SpSubscriptionApi,
     /**
      * The StatisticsApi service constructor.
      * @property {module:api/StatisticsApi}
