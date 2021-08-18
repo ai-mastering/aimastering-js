@@ -34,7 +34,7 @@
   /**
    * Subscription service.
    * @module api/SubscriptionApi
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

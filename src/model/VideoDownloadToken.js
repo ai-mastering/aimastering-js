@@ -37,7 +37,7 @@
   /**
    * The VideoDownloadToken model module.
    * @module model/VideoDownloadToken
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

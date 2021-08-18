@@ -37,7 +37,7 @@
   /**
    * The JWT model module.
    * @module model/JWT
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

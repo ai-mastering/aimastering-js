@@ -37,7 +37,7 @@
   /**
    * The ConfigAuth0 model module.
    * @module model/ConfigAuth0
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

@@ -37,7 +37,7 @@
   /**
    * The GroupBuyStatistics model module.
    * @module model/GroupBuyStatistics
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

@@ -37,7 +37,7 @@
   /**
    * The UserStatistics model module.
    * @module model/UserStatistics
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

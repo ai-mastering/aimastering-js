@@ -37,7 +37,7 @@
   /**
    * The Kpi model module.
    * @module model/Kpi
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

@@ -37,7 +37,7 @@
   /**
    * The ConfigPaypal model module.
    * @module model/ConfigPaypal
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

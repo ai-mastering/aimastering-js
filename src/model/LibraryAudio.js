@@ -37,7 +37,7 @@
   /**
    * The LibraryAudio model module.
    * @module model/LibraryAudio
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

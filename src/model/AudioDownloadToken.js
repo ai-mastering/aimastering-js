@@ -37,7 +37,7 @@
   /**
    * The AudioDownloadToken model module.
    * @module model/AudioDownloadToken
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**

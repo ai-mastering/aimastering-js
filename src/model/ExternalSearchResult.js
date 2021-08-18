@@ -37,7 +37,7 @@
   /**
    * The ExternalSearchResult model module.
    * @module model/ExternalSearchResult
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**
